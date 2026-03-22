@@ -1,0 +1,3009 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2868
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;\f1\fswiss\fcharset0 Helvetica;\f2\fnil\fcharset0 HelveticaNeue-Bold;
+}
+{\colortbl;\red255\green255\blue255;\red154\green154\blue154;}
+{\*\expandedcolortbl;;\csgray\c66667;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid1\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat2\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid101\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid201\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat4\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid301\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid4}
+{\list\listtemplateid5\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat5\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid401\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid5}
+{\list\listtemplateid6\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid501\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid6}
+{\list\listtemplateid7\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat7\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid601\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid7}
+{\list\listtemplateid8\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat8\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid701\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid8}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}{\listoverride\listid6\listoverridecount0\ls6}{\listoverride\listid7\listoverridecount0\ls7}{\listoverride\listid8\listoverridecount0\ls8}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab560
+\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+
+\f0\fs26 \cf0 //object creation\
+class Electronic \{\
+    String modelName;\
+    String name;\
+    int modelNum;\
+    int serialNum;\
+    String ram;\
+    \
+    \
+    //function creation\
+    public void Display()\{\
+        this.modelName = modelName;\
+        this.name = name;\
+        this.modelNum = modelNum;\
+        this.serialNum = serialNum;\
+        this.ram = ram;\
+        \
+    \}\
+    \
+    //creation of constructor\
+    public Electronic(String modelName, String name, int modelNum, int serialNum, String ram )\{\
+        System.out.println(modelName);\
+        System.out.println(name);\
+        System.out.println(modelNum);\
+        System.out.println(serialNum);\
+        System.out.println(ram);\
+        \
+    \} \
+\}\
+\
+class Main\{\
+    public static void main(String[] args) \{\
+        \
+        Electronic item1 = new Electronic("foldable", "samsang", 200121, 1234, "16gb");\
+        item1.Display();\
+        \
+         Electronic item2 = new Electronic("screen touch", "iphone", 2321, 1232, "8gb");\
+        item2.Display();\
+        \
+         Electronic item3 = new Electronic("screen touch", "motorila", 2321, 1232, "4gb");\
+        item3.Display();\
+        \
+         Electronic item4 = new Electronic("fold able", "samsang", 1231, 2231, "16gb");\
+        item4.Display();\
+        \
+         Electronic item5 = new Electronic("normal", "nokia", 23213, 2321, "0gb");\
+        item5.Display();\
+    \}\
+    \
+    switch()\
+\}\
+\
+\
+\
+\
+\
+\
+[26/02/26, 21:53:12] Shiva: basic program on cpp\
+\
+#include <iostream>\
+using namespace std;\
+\
+int main() \{\
+			cout << "hello world";\
+				return 0;\
+		\}\
+\
+\
+\
+\
+//print your name\
+#include <iostream>\
+using namespace std;\
+\
+int main() \{\
+    string name;\
+    cout << "enter your name: ";\
+    \
+    cin >> name;\
+    \
+    cout << "hello " << name; \
+    return 0;\
+\}\
+\
+\
+// add two numbers\
+#include <iostream>\
+using namespace std;\
+\
+int main() \{\
+    int a, b;\
+\
+    cout << "enter your first number: ";\
+    cin >> a;\
+    \
+    cout << "enter secong number:  ";\
+    cin >> b;\
+    \
+    cout << "the sum of two num is: " << a+b;\
+    return 0;\
+\}\
+\
+\
+\
+// swapping two numbers\
+#include <iostream>\
+using namespace std;\
+\
+int main() \{\
+    int a = 10;\
+    int b = 20;\
+    \
+    //using third variable\
+    int temp = a;\
+    a = b;\
+    b = temp;\
+    \
+    cout << " a= " << a <<endl;\
+    cout << "b= " << b;\
+    return 0;\
+\}\
+\
+\
+\
+// Online C++ compiler to run C++ program online\
+#include <iostream>\
+using namespace std;\
+int main() \{\
+   int a = 10, b = 20;\
+   a = a + b;\
+   b = a - b;\
+   a = a - b;\
+\
+    cout << "a =" << a <<endl;\
+    cout << "b =" << b;\
+\
+    return 0;\
+\}\
+\
+\
+\
+// check even or odd\
+#include <iostream>\
+using namespace std;\
+int main() \{\
+   int num;\
+   cout << "enter the number: ";\
+   cin >> num;\
+   \
+   if(num%2==0)\{\
+       cout << "even";\
+   \}else\{\
+       cout << "odd";\
+   \}\
+   \
+\
+    return 0;\
+\}\
+\
+\
+// check even odd or negative number\
+#include <iostream>\
+using namespace std;\
+int main() \{\
+   int num;\
+   cout << "enter the number: ";\
+   cin >> num;\
+   \
+   if(num > 0)\
+       cout << "positive";\
+    else if(num < 0)\
+       cout << "negative";\
+    else\
+       cout << "zero";\
+\
+    return 0;\
+\}\
+\
+\
+\
+// find the largest of two\
+#include <iostream>\
+using namespace std;\
+int main() \{\
+   int num1, num2;\
+   cout << "enter the first number: ";\
+   cin >> num1;\
+   cout << "enter the second number: ";\
+   cin >> num2;\
+   \
+   if(num1>num2)\
+        cout << "largest is: " << num1;\
+   else\
+        cout << "largest is: " << num2;\
+\
+    return 0;\
+\}\
+\
+\
+// find the largest of three numbers\
+#include <iostream>\
+using namespace std;\
+int main() \{\
+   int num1, num2, num3;\
+   cout << "enter the first number: ";\
+   cin >> num1;\
+   cout << "enter the second number: ";\
+   cin >> num2;\
+   cout << "enter the third number: ";\
+   cin >> num3;\
+   \
+   if(num1>num2 && num1>num3)\
+        cout << "largest is: " << num1;\
+   else if(num2 > num1 && num2 > num3)\
+        cout << "largest is: " << num2;\
+    else\
+        cout << "largest is: " << num3;\
+\
+    return 0;\
+\}\
+\
+\
+\
+// find the largest of three numbers\
+#include <iostream>\
+using namespace std;\
+int main() \{\
+   int year;\
+   cout << "enter the year: ";\
+   cin >> year;\
+   \
+   if((year % 4 ==0 && year % 100 != 0) || (year % 400 == 0 ))\
+        cout << "leap year: " << year;\
+   else\
+        cout << "not a leap year: " << year;\
+\
+    return 0;\
+\}\
+\
+\
+\
+\
+\
+// find the largest of three numbers\
+#include <iostream>\
+using namespace std;\
+int main() \{\
+   char op;\
+   int a, b;\
+   \
+   cout << "enter the option: +, -, %, /, *: ";\
+   cin >> op;\
+   \
+   cout << "enter the first number: ";\
+   cin >> a;\
+   \
+   cout << "enter the second number: ";\
+   cin >> b;\
+   \
+   //using switch case\
+   switch(op) \{\
+       \
+       case '+':\
+        cout << "result is: " << a+b\
+;\
+            break;\
+            \
+            case '-':\
+        cout << "result is: " << a-b\
+;\
+            break;\
+            \
+            case '*':\
+        cout << "result is: " << a*b\
+;\
+            break;\
+            \
+            case '/':\
+        cout << "result is: " << a/b\
+;\
+            break;\
+            \
+            case '%':\
+        cout << "result is: " << a%b\
+;\
+            break;\
+       \
+   \}\
+    return 0;\
+\}\
+\
+\
+\
+// print 1 to N numbers \
+#include <iostream>\
+using namespace std;\
+int main() \{\
+   \
+   int num;\
+   cout << "enter n: ";\
+   cin>>num;\
+   \
+   for(int i=1; i<=num; i++)\{\
+       cout<<i<< endl ;\
+   \}\
+    return 0;\
+\}\
+\
+\
+\
+// print 1 to N numbers reverse\
+#include <iostream>\
+using namespace std;\
+int main() \{\
+   \
+   int num;\
+   cout << "enter n: ";\
+   cin>>num;\
+   \
+   for(int i=num; i>=0; i--)\{\
+       cout<<i<< endl ;\
+   \}\
+    return 0;\
+\}\
+\
+// print even numbers\
+#include <iostream>\
+using namespace std;\
+int main() \{\
+   \
+   int num;\
+   cout << "enter n: ";\
+   cin>>num;\
+   \
+   for(int i=0; i<=num; i++)\{\
+       if(i % 2==0)\
+        cout << i << endl;\
+   \}\
+    return 0;\
+\}\
+\
+\
+// print odd numbers\
+#include <iostream>\
+using namespace std;\
+int main() \{\
+   \
+   int num;\
+   cout << "enter n: ";\
+   cin>>num;\
+   \
+   for(int i=0; i<=num; i++)\{\
+       if(i % 2!=0)\
+        cout << i << endl;\
+   \}\
+    return 0;\
+\}\
+\
+\
+// print sum numbers\
+#include <iostream>\
+using namespace std;\
+int main() \{\
+  \
+   int num, sum = 0;\
+   cout << "enter n: ";\
+   cin>>num;\
+   \
+   for(int i=0; i<=num; i++)\{\
+        sum = sum + i;\
+   \}\
+   \
+   cout << "the sum is: " << sum;\
+    return 0;\
+\}\
+\
+\
+\
+// print sum numbers\
+#include <iostream>\
+using namespace std;\
+int main() \{\
+   \
+   int num, fact = 1;\
+   cout << "enter n: ";\
+   cin>>num;\
+   \
+   for(int i=1; i<=num; i++)\{\
+        fact = fact * i;\
+   \}\
+   \
+   cout << "the factorial is: " << fact;\
+    return 0;\
+\}\
+\
+\
+// print table\
+#include <iostream>\
+using namespace std;\
+int main() \{\
+   \
+   int num=10;\
+   cout << "enter the number: ";\
+   cin >> num;\
+   \
+   for(int i=1; i<=num; i++) \{\
+       cout << num << " x" << i << " =" << num*i << endl;\
+   \}\
+   \
+   \
+    return 0;\
+\}\
+\
+\
+// count digits in number\
+#include <iostream>\
+using namespace std;\
+int main() \{\
+   \
+   int num,count=0;\
+   cout << "enter the number: ";\
+   cin >> num;\
+   \
+   while(num != 0) \{\
+       num = num/10;\
+       count++;\
+   \}\
+   \
+   cout << "count of digits: " << count;\
+   \
+   \
+    return 0;\
+\}\
+\
+\
+// count reverse the number\
+#include <iostream>\
+using namespace std;\
+int main() \{\
+   \
+   int num, rev = 0;\
+   cout << "enter the number: ";\
+   cin >> num;\
+   \
+   while(num != 0) \{\
+       int rem = num % 10;\
+       rev = (rev * 10) + rem;\
+       num = num/10;\
+   \}\
+   \
+   cout << "count of digits: " << rev;\
+   \
+    return 0;\
+\}\
+\
+\
+\
+// check palindrome number\
+\
+#include <iostream>\
+using namespace std;\
+int main() \{\
+   \
+   int num, rev = 0, original;\
+   cout << "enter the number: ";\
+   cin >> num;\
+   original = num;\
+   while(num != 0) \{\
+       int rem = num % 10;\
+       rev = (rev * 10) + rem;\
+       num = num/10;\
+   \}\
+   \
+   if(original == rev)\
+        cout << "palindrome number";\
+   else\
+        cout << "not a palindrome number";\
+   \
+    return 0;\
+\}\
+\
+\
+[26/02/26, 21:53:12] Shiva: basic program on cpp\
+\
+#include <iostream>\
+using namespace std;\
+\
+int main() \{\
+			cout << "hello world";\
+				return 0;\
+		\}\
+\
+\
+\
+\
+//print your name\
+#include <iostream>\
+using namespace std;\
+\
+int main() \{\
+    string name;\
+    cout << "enter your name: ";\
+    \
+    cin >> name;\
+    \
+    cout << "hello " << name; \
+    return 0;\
+\}\
+\
+\
+// add two numbers\
+#include <iostream>\
+using namespace std;\
+\
+int main() \{\
+    int a, b;\
+\
+    cout << "enter your first number: ";\
+    cin >> a;\
+    \
+    cout << "enter secong number:  ";\
+    cin >> b;\
+    \
+    cout << "the sum of two num is: " << a+b;\
+    return 0;\
+\}\
+\
+\
+\
+// swapping two numbers\
+#include <iostream>\
+using namespace std;\
+\
+int main() \{\
+    int a = 10;\
+    int b = 20;\
+    \
+    //using third variable\
+    int temp = a;\
+    a = b;\
+    b = temp;\
+    \
+    cout << " a= " << a <<endl;\
+    cout << "b= " << b;\
+    return 0;\
+\}\
+\
+\
+\
+// Online C++ compiler to run C++ program online\
+#include <iostream>\
+using namespace std;\
+int main() \{\
+   int a = 10, b = 20;\
+   a = a + b;\
+   b = a - b;\
+   a = a - b;\
+\
+    cout << "a =" << a <<endl;\
+    cout << "b =" << b;\
+\
+    return 0;\
+\}\
+\
+\
+\
+// check even or odd\
+#include <iostream>\
+using namespace std;\
+int main() \{\
+   int num;\
+   cout << "enter the number: ";\
+   cin >> num;\
+   \
+   if(num%2==0)\{\
+       cout << "even";\
+   \}else\{\
+       cout << "odd";\
+   \}\
+   \
+\
+    return 0;\
+\}\
+\
+\
+// check even odd or negative number\
+#include <iostream>\
+using namespace std;\
+int main() \{\
+   int num;\
+   cout << "enter the number: ";\
+   cin >> num;\
+   \
+   if(num > 0)\
+       cout << "positive";\
+    else if(num < 0)\
+       cout << "negative";\
+    else\
+       cout << "zero";\
+\
+    return 0;\
+\}\
+\
+\
+\
+// find the largest of two\
+#include <iostream>\
+using namespace std;\
+int main() \{\
+   int num1, num2;\
+   cout << "enter the first number: ";\
+   cin >> num1;\
+   cout << "enter the second number: ";\
+   cin >> num2;\
+   \
+   if(num1>num2)\
+        cout << "largest is: " << num1;\
+   else\
+        cout << "largest is: " << num2;\
+\
+    return 0;\
+\}\
+\
+\
+// find the largest of three numbers\
+#include <iostream>\
+using namespace std;\
+int main() \{\
+   int num1, num2, num3;\
+   cout << "enter the first number: ";\
+   cin >> num1;\
+   cout << "enter the second number: ";\
+   cin >> num2;\
+   cout << "enter the third number: ";\
+   cin >> num3;\
+   \
+   if(num1>num2 && num1>num3)\
+        cout << "largest is: " << num1;\
+   else if(num2 > num1 && num2 > num3)\
+        cout << "largest is: " << num2;\
+    else\
+        cout << "largest is: " << num3;\
+\
+    return 0;\
+\}\
+\
+\
+\
+// find the largest of three numbers\
+#include <iostream>\
+using namespace std;\
+int main() \{\
+   int year;\
+   cout << "enter the year: ";\
+   cin >> year;\
+   \
+   if((year % 4 ==0 && year % 100 != 0) || (year % 400 == 0 ))\
+        cout << "leap year: " << year;\
+   else\
+        cout << "not a leap year: " << year;\
+\
+    return 0;\
+\}\
+\
+\
+\
+\
+\
+// find the largest of three numbers\
+#include <iostream>\
+using namespace std;\
+int main() \{\
+   char op;\
+   int a, b;\
+   \
+   cout << "enter the option: +, -, %, /, *: ";\
+   cin >> op;\
+   \
+   cout << "enter the first number: ";\
+   cin >> a;\
+   \
+   cout << "enter the second number: ";\
+   cin >> b;\
+   \
+   //using switch case\
+   switch(op) \{\
+       \
+       case '+':\
+        cout << "result is: " << a+b\
+;\
+            break;\
+            \
+            case '-':\
+        cout << "result is: " << a-b\
+;\
+            break;\
+            \
+            case '*':\
+        cout << "result is: " << a*b\
+;\
+            break;\
+            \
+            case '/':\
+        cout << "result is: " << a/b\
+;\
+            break;\
+            \
+            case '%':\
+        cout << "result is: " << a%b\
+;\
+            break;\
+       \
+   \}\
+    return 0;\
+\}\
+\
+\
+\
+// print 1 to N numbers \
+#include <iostream>\
+using namespace std;\
+int main() \{\
+   \
+   int num;\
+   cout << "enter n: ";\
+   cin>>num;\
+   \
+   for(int i=1; i<=num; i++)\{\
+       cout<<i<< endl ;\
+   \}\
+    return 0;\
+\}\
+\
+\
+\
+// print 1 to N numbers reverse\
+#include <iostream>\
+using namespace std;\
+int main() \{\
+   \
+   int num;\
+   cout << "enter n: ";\
+   cin>>num;\
+   \
+   for(int i=num; i>=0; i--)\{\
+       cout<<i<< endl ;\
+   \}\
+    return 0;\
+\}\
+\
+// print even numbers\
+#include <iostream>\
+using namespace std;\
+int main() \{\
+   \
+   int num;\
+   cout << "enter n: ";\
+   cin>>num;\
+   \
+   for(int i=0; i<=num; i++)\{\
+       if(i % 2==0)\
+        cout << i << endl;\
+   \}\
+    return 0;\
+\}\
+\
+\
+// print odd numbers\
+#include <iostream>\
+using namespace std;\
+int main() \{\
+   \
+   int num;\
+   cout << "enter n: ";\
+   cin>>num;\
+   \
+   for(int i=0; i<=num; i++)\{\
+       if(i % 2!=0)\
+        cout << i << endl;\
+   \}\
+    return 0;\
+\}\
+\
+\
+// print sum numbers\
+#include <iostream>\
+using namespace std;\
+int main() \{\
+  \
+   int num, sum = 0;\
+   cout << "enter n: ";\
+   cin>>num;\
+   \
+   for(int i=0; i<=num; i++)\{\
+        sum = sum + i;\
+   \}\
+   \
+   cout << "the sum is: " << sum;\
+    return 0;\
+\}\
+\
+\
+\
+// print sum numbers\
+#include <iostream>\
+using namespace std;\
+int main() \{\
+   \
+   int num, fact = 1;\
+   cout << "enter n: ";\
+   cin>>num;\
+   \
+   for(int i=1; i<=num; i++)\{\
+        fact = fact * i;\
+   \}\
+   \
+   cout << "the factorial is: " << fact;\
+    return 0;\
+\}\
+\
+\
+// print table\
+#include <iostream>\
+using namespace std;\
+int main() \{\
+   \
+   int num=10;\
+   cout << "enter the number: ";\
+   cin >> num;\
+   \
+   for(int i=1; i<=num; i++) \{\
+       cout << num << " x" << i << " =" << num*i << endl;\
+   \}\
+   \
+   \
+    return 0;\
+\}\
+\
+\
+// count digits in number\
+#include <iostream>\
+using namespace std;\
+int main() \{\
+   \
+   int num,count=0;\
+   cout << "enter the number: ";\
+   cin >> num;\
+   \
+   while(num != 0) \{\
+       num = num/10;\
+       count++;\
+   \}\
+   \
+   cout << "count of digits: " << count;\
+   \
+   \
+    return 0;\
+\}\
+\
+\
+// count reverse the number\
+#include <iostream>\
+using namespace std;\
+int main() \{\
+   \
+   int num, rev = 0;\
+   cout << "enter the number: ";\
+   cin >> num;\
+   \
+   while(num != 0) \{\
+       int rem = num % 10;\
+       rev = (rev * 10) + rem;\
+       num = num/10;\
+   \}\
+   \
+   cout << "count of digits: " << rev;\
+   \
+    return 0;\
+\}\
+\
+\
+\
+// check palindrome number\
+\
+#include <iostream>\
+using namespace std;\
+int main() \{\
+   \
+   int num, rev = 0, original;\
+   cout << "enter the number: ";\
+   cin >> num;\
+   original = num;\
+   while(num != 0) \{\
+       int rem = num % 10;\
+       rev = (rev * 10) + rem;\
+       num = num/10;\
+   \}\
+   \
+   if(original == rev)\
+        cout << "palindrome number";\
+   else\
+        cout << "not a palindrome number";\
+   \
+    return 0;\
+\}\
+\
+\
+\
+27/02/2026\
+\
+#include <iostream>\
+using namespace std;\
+\
+int main() \{\
+    string cars[5] = \{"bmw", "ford", "benz", "tata", "kia"\} ;\
+    \
+    for(int i=0; i<=5; i++)\{\
+        cout << i <<" " <<cars[i] << endl;\
+    \}\
+    return 0;\
+\}\
+\
+\
+#include <iostream>\
+using namespace std;\
+\
+int main() \{\
+    string cars[5] = \{"bmw", "ford", "benz", "tata", "kia"\} ;\
+    \
+    for(string car : cars)\{\
+        cout  <<" " <<car << endl;\
+    \}\
+    return 0;\
+\}\
+\
+\
+#include <iostream>\
+using namespace std;\
+\
+int main() \{\
+    int num[5] = \{10, 20, 30, 40, 50\} ;\
+    \
+    for(int n : num)\{\
+        cout  << n << endl;\
+    \}\
+    return 0;\
+\}\
+\
+\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf0 {\listtext	0.	}Details of the student using structure \
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 \
+#include <iostream>\
+#include <string>\
+using namespace std;\
+\
+//define the structure\
+struct Student \{\
+    string name;\
+    int rollno;\
+    float marks;\
+    string add;\
+    int cls;\
+\};\
+\
+int main() \{\
+    const int size = 2;\
+    Student s1[size];\
+    \
+    cout << "enter the details of the student: " << endl;\
+    \
+    for(int i=0; i<size; i++) \{\
+        cout << "for student "<< i+1 <<"," << endl;\
+        \
+        cout << "enter the name: ";\
+        cin >> s1[i].name;\
+        \
+        cout << "enter the rollno: ";\
+        cin >> s1[i].rollno;\
+        \
+        cout << "enter the marks: ";\
+        cin >> s1[i].marks;\
+        \
+        cout << "enter the address: ";\
+        cin >> s1[i].add;\
+        \
+        cout << "enter the class: ";\
+        cin >> s1[i].cls;\
+    \}\
+    \
+    //printing the details of the student\
+    \
+    cout << "displaying the details of the student: " << endl;\
+    \
+    for(int i=0; i<size; i++) \{\
+        cout << "name: " << s1[i].name << endl;\
+        cout << "rollno: " << s1[i].rollno << endl;\
+        cout << "marks: " << s1[i].marks << endl;\
+        cout << "address: " << s1[i].add << endl;\
+        cout << "string: " << s1[i].cls << endl;\
+    \}\
+\
+    return 0;\
+\}\
+\
+\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls2\ilvl0\cf0 {\listtext	0.	} Printing the employee details using cpp structure\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 \
+#include <iostream>\
+#include <string>\
+using namespace std;\
+\
+//1. creating the struct\
+struct Employee \{\
+    string name;\
+    int id;\
+    string add;\
+    string location;\
+    string type;\
+\};\
+\
+int main() \{\
+    const int size = 2;\
+    \
+    //declearing the array of structure\
+    Employee e1[size];\
+    \
+    cout << "enter the details of the employee: " << endl;\
+    \
+    //assing the value to the employee\
+    for(int i=0; i<size; i++) \{\
+        cout << "for employee" << "," << i + 1 << endl;\
+        cout << "enter the name: ";\
+        cin >> e1[i].name;\
+        \
+        cout << "enter the emp id: ";\
+        cin >> e1[i].id;\
+        \
+        cout << "enter the emp add: ";\
+        cin >> e1[i].add;\
+        \
+        cout << "enter the emp location: ";\
+        cin >> e1[i].location;\
+        \
+        cout << "enter the emp type: ";\
+        cin >> e1[i].type;\
+    \}\
+    \
+    cout << "display the details of the employee: " << endl;\
+    \
+    //displaying the details of the employee\
+    for(int i=0; i<size; i++)\{\
+        cout << "name: " << e1[i].name << endl;\
+        cout << "id: " << e1[i].name << endl;\
+        cout << "add: " << e1[i].name << endl;\
+        cout << "location: " << e1[i].name << endl;\
+        cout << "type: " << e1[i].name << endl;\
+    \}\
+\}\
+\
+3.Displaying the details of the car\
+\
+\
+#include <iostream>\
+#include <string>\
+using namespace std;\
+\
+//1. displaying the details of the car\
+struct Car \{\
+    string name;\
+    int seater;\
+    int airbags;\
+    string model;\
+    string type;\
+\};\
+\
+int main() \{\
+    const int size = 2;\
+    \
+    //declearing the array of structure\
+    Car c1[size];\
+    \
+    cout << "enter the details of the car: " << endl;\
+    \
+    //assing the value to the employee\
+    for(int i=0; i<size; i++) \{\
+        cout << "for car" << "," << i + 1 << endl;\
+        cout << "enter the car name: ";\
+        cin >> c1[i].name;\
+        \
+        cout << "enter the number of seats: ";\
+        cin >> c1[i].seater;\
+        \
+        cout << "enter the number of air bags: ";\
+        cin >> c1[i].airbags;\
+        \
+        cout << "enter the car model: ";\
+        cin >> c1[i].model;\
+        \
+        cout << "enter the car type: ";\
+        cin >> c1[i].type;\
+    \}\
+    \
+    cout << "display the details of the employee: " << endl;\
+    \
+    //displaying the details of the employee\
+    for(int i=0; i<size; i++)\{\
+        cout << "model name: " << c1[i].name << endl;\
+        cout << "number of seats: " << c1[i].seater << endl;\
+        cout << "number of airbags: " << c1[i].airbags << endl;\
+        cout << "car model: " << c1[i].model << endl;\
+        cout << "car type: " << c1[i].type << endl;\
+    \}\
+\}\
+\
+\
+\\\\ problems on vectors\
+\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+\cf0 \
+#include <iostream>\
+#include <vector>\
+#include <string>\
+using namespace std;\
+\
+int main() \{\
+    vector<string> cars = \{"volvo", "bmw", "ford", "mazda"\};\
+    \
+    for(string car : cars)\
+        cout << car << endl;\
+    \
+\}\
+\
+\
+#include <iostream>\
+#include <vector>\
+#include <string>\
+using namespace std;\
+\
+int main() \{\
+    vector<int>nums = \{10, 20, 30, 40, 50\};\
+    \
+    for(int num : nums)\
+        cout << num << endl;\
+    \
+\}\
+\
+\
+27/02/2026\
+\
+\
+\
+#include <iostream>\
+using namespace std;\
+\
+struct Products \{\
+    string brand;\
+    int manufactureDate;\
+    float price;\
+    int modelNo;\
+    int battaryCapacity;\
+\};\
+\
+int main() \{\
+    int n;\
+    cout << "enter the number of products: " << endl;\
+    cin >> n;\
+    \
+    Products p1[10];\
+    Products cart[10];\
+    \
+    //taking input from the user\
+    for(int i=0; i<n; i++)\{\
+        cout << "enter the brand name: " << endl;\
+        cin >> p1[i].brand;\
+        \
+        cout << "enter the manufacture Date: " << endl;\
+        cin >> p1[i].manufactureDate;\
+        \
+        cout << "enter the prise: " << endl;\
+        cin >> p1[i].price;\
+        \
+        cout << "enter the model number: " << endl;\
+        cin >> p1[i].modelNo;\
+        \
+        cout << "enter the battary capacity: " << endl;\
+        cin >> p1[i].battaryCapacity;\
+    \}\
+    \
+    //displaying the all Products\
+    for(int i=0; i<n; i++)\{\
+        cout << p1[i].brand << " " << p1[i].manufactureDate << " " << p1[i].price << " " << p1[i].modelNo << " " << p1[i].battaryCapacity;\
+        \
+    \}\
+\}\
+\
+\
+\
+\
+/******************************************************************************\
+\
+                              Online C++ Compiler.\
+               Code, Compile, Run and Debug C++ program online.\
+Write your code in this editor and press "Run" button to compile and execute it.\
+\
+*******************************************************************************/\
+\
+#include <iostream>\
+using namespace std;\
+\
+struct Products \{\
+    string brand;\
+    int manufactureDate;\
+    float price;\
+    int modelNo;\
+    int battaryCapacity;\
+\};\
+\
+int main() \{\
+    int n;\
+    cout << "enter the number of products: ";\
+    cin >> n;\
+    \
+    Products p1[10];\
+    Products cart[10];\
+    \
+    //taking input from the user\
+    for(int i=0; i<n; i++)\{\
+        cout << "enter the brand name: ";\
+        cin >> p1[i].brand;\
+        \
+        cout << "enter the manufacture Date: ";\
+        cin >> p1[i].manufactureDate;\
+        \
+        cout << "enter the prise: ";\
+        cin >> p1[i].price;\
+        \
+        cout << "enter the model number: ";\
+        cin >> p1[i].modelNo;\
+        \
+        cout << "enter the battary capacity: ";\
+        cin >> p1[i].battaryCapacity;\
+    \}\
+    \
+    //displaying the all Products\
+    for(int i=0; i<n; i++)\{\
+        cout << p1[i].brand << " " << p1[i].manufactureDate << " " << p1[i].price << " " << p1[i].modelNo << " " << p1[i].battaryCapacity << endl;\
+        \
+    \}\
+    \
+    int choice;\
+    char option;\
+    int cartCount = 0;\
+    float total = 0;\
+    \
+    do\{\
+        cout << "enter product number to view details: ";\
+        cin >> choice;\
+        \
+        if(choice >= 1 && choice <=n) \{\
+            \
+            cout << "PRODUCT DETAILS: ";\
+            cout << "brand: " << p1[choice-1].brand << endl;\
+            cout << "manufactureDate: " << p1[choice-1].manufactureDate << endl;\
+            cout << "price: " << p1[choice-1].price << endl;\
+            cout << "modelNo: " << p1[choice-1].modelNo << endl;\
+            cout << "battaryCapacity: " << p1[choice-1].battaryCapacity << endl;\
+            \
+            cout << "add this product to cart y/n: ";\
+            cin >> option;\
+            \
+            if(option == 'y' || option == 'Y') \{\
+                cart[cartCount] = p1[choice-1];\
+                total+=p1[choice-1].price;\
+                cartCount++;\
+                cout << "product added to cart successfully" << endl;\
+            \}\
+        \}\
+        else \{\
+            cout << "invalid product number";\
+        \}\
+       cout << "do you wnat to choice another product (y/n): ";\
+       cin >> option;\
+       \
+    \} while(option == 'y' || option == 'Y');\
+    \
+    cout << " CART PRODUCTS" << endl;\
+    if(cartCount == 0) \{\
+        cout << "Cart is empty" << endl;\
+        \}else\{\
+            for(int i=0; i< cartCount; i++)\{\
+                cout << cart[i].brand << " " << cart[i].manufactureDate << " " << cart[i].price << " " << cart[i].modelNo << " " << cart[i].battaryCapacity << endl;\
+        \}\
+        \
+        cout << "total amount is: " << total << endl;\
+    \}\
+\}\
+\
+\
+\
+\
+// Online C++ compiler to run C++ program online\
+#include <iostream>\
+using namespace std;\
+\
+struct products \{\
+    string name;\
+    int rate;\
+\};\
+\
+int main() \{\
+    int n;\
+    cout << "enter the number of items: ";\
+    cin >> n;\
+    \
+    // creating struct array\
+    products p[10];\
+    products cart[10];\
+    \
+    cout << "=========  enter the product detals. ==========" << endl;\
+    for(int i=0; i<n; i++) \{\
+        cout << "name of the product " << i+1 << ": ";\
+        cin >> p[i].name;\
+        \
+        cout << "rate of the product: ";\
+        cin >> p[i].rate;\
+    \}\
+    \
+    cout << "============ Display the product details ============" << endl;\
+    for(int i=0; i<n; i++) \{\
+        cout << "Name:" << ""<< p[i].name<< "   " << "rate :" <<""<< p[i].rate;\
+    \}\
+    int choice;\
+    char option;\
+    int cartCount = 0;\
+    float total =0;\
+    \
+    do \{\
+        cout << "chose number to display the details of the product: " << endl;\
+        cin >> choice;\
+        \
+        cout << "Displaying the choics item details: " << endl;\
+        if(choice >=1 && choice <=n) \{\
+            cout << "name: " << p[choice-1].name << endl;\
+            cout << "rate: " << p[choice-1].rate << endl;\
+            \
+            cout << "add this item to cart (y/n)" << endl;\
+            cin >> option;\
+            \
+            if(option == 'y' || option == 'Y') \{\
+                cart[cartCount] = p[choice-1];\
+                total = total + p[choice-1].rate;\
+                cartCount++;\
+                \
+                cout << "product added successfully:" << endl;\
+            \}\
+        \}else\{\
+            cout << "in valid number entered" << endl;\
+        \}\
+          cout << "choice another item in to cart (y/n)" << endl;\
+        \}while(option == 'y' || option == 'Y');\
+        \
+        cout << "=========== cart products ===========" << endl;\
+        if(cartCount == 0)\{\
+            cout << "cart empty";\
+            \
+        \}else\{\
+            for(int i=0; i<cartCount; i++) \{\
+                cout << cart[i].name;\
+                cout << cart[i].rate;\
+            \}\
+            \
+            cout << "total: " << total;\
+        \}\
+\}\
+\
+\
+\
+\
+#include <iostream>\
+using namespace std;\
+\
+\
+struct Student \{\
+    string name;\
+    int m1, m2, m3;\
+\};\
+\
+\
+int main() \{\
+    int n;\
+    cout << "enter the number of students: " << endl;\
+    cin >> n;\
+    \
+    \
+    Student s[10];\
+    \
+    \
+    \
+    cout << "enter the details of the students: ";\
+    for(int i=0; i<n; i++) \{\
+        \
+        cout << "name: ";\
+        cin >> s[i].name;\
+        \
+        cout << "enter marks 3: ";\
+        cin >> s[i].m1 >> s[i].m2 >> s[i].m3;\
+    \}\
+    \
+    cout << "======  LIST OD STUDENTS ======" << endl;\
+    for(int i=0; i<n; i++) \{\
+        cout << "name: " << s[i].name;\
+    \}\
+    \
+    int choice;\
+    \
+    cout << "enter the choice: ";\
+    cin >> choice;\
+    \
+    if(choice >= 1 && choice <= n)\{\
+        float avg = (s[choice-1].m1 + s[choice-1].m2 + s[choice-1].m3)/3.0;\
+        cout << "average marks: " << avg;\
+    \}else \{\
+        cout << "invalid choice";\
+    \}\
+    return 0;\
+\}\
+\
+\
+6/3/2026\
+\
+\
+// Online C++ compiler to run C++ program online\
+#include <iostream>\
+using namespace std;\
+\
+class Student \{\
+    private: \
+        string name;\
+        int roll;\
+        float marks;\
+        \
+        \
+    public:\
+        void getData() \{\
+            cout << "enter the name: ";\
+            cin >> name;\
+            \
+            cout << "Enter roll number: ";\
+            cin >> roll;\
+            \
+            cout << "Enter the marks: ";\
+            cin >> marks;\
+        \}\
+        \
+        void display() \{\
+            cout << "\\n Student Details: \\n";\
+            cout << "name: " << name << endl;\
+            cout << "Roll: " << roll << endl;\
+            cout << "marks: " << marks << endl;\
+        \}\
+\};\
+\
+\
+int main() \{\
+    Student s;\
+    s.getData();\
+    s.display();\
+\}\
+\
+\
+\
+\
+// bank account system\
+#include <iostream>\
+using namespace std;\
+\
+class BankAccount \{\
+    private:\
+    int accNo;\
+    string name;\
+    float balance;\
+    \
+    public:\
+        void createAccount() \{\
+            cout << "eter the number: ";\
+            cin >> accNo;\
+            \
+            cout << "enter the name: ";\
+            cin >> name;\
+            \
+            cout << "enter initial balance: ";\
+            cin >> balance;\
+        \}\
+        \
+        void deposite() \{\
+            float amount;\
+            cout << "enter the deposite amount: ";\
+            cin >> amount;\
+            balance = balance+amount;\
+        \}\
+        \
+        void withdraw() \{\
+            float amount;\
+            cout << "enter the amount to withdraw: ";\
+            cin >> amount;\
+            \
+            if(amount <= balance)\
+                balance = balance - amount;\
+            else\
+                cout << "insufficient balance";\
+        \}\
+        \
+        void displayBalance() \{\
+            cout << "current balance: " << balance << endl;\
+        \}\
+\};\
+\
+int main() \{\
+    BankAccount b;\
+    b.createAccount();\
+    b.deposite();\
+    b.withdraw();\
+    b.displayBalance();\
+\}\
+\
+\
+\
+#include <iostream>\
+using namespace std;\
+\
+\
+class Product \{\
+    private:\
+    int productId;\
+    string productName;\
+    int productPrice;\
+    \
+    \
+    public:\
+        void inputProduct() \{\
+            cout << "enter productId: ";\
+            cin >> productId;\
+            \
+            cout << "product name: ";\
+            cin >> productName;\
+            \
+            cout << "enter price of the product: ";\
+            cin >> productPrice;\
+        \}\
+        \
+        void display() \{\
+            cout << "\\n Product Details: \\n";\
+            cout << "ID: " << productId;\
+            cout << "Name: " << productName;\
+            cout << "Price: " << productPrice;\
+        \}\
+\};\
+\
+int main() \{\
+    Product p;\
+    p.inputProduct();\
+    p.displa\
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clbrdrt\brdrs\brdrw20\brdrcf2 \clbrdrl\brdrs\brdrw20\brdrcf2 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt20 \clpadl100 \clpadb20 \clpadr100 \gaph\cellx4320
+\clvertalt \clshdrawnil \clbrdrt\brdrs\brdrw20\brdrcf2 \clbrdrl\brdrs\brdrw20\brdrcf2 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt20 \clpadl100 \clpadb20 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab560\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf0 \cell 
+\pard\intbl\itap1\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab560\pardirnatural\partightenfactor0
+\cf0 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clbrdrt\brdrs\brdrw20\brdrcf2 \clbrdrl\brdrs\brdrw20\brdrcf2 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt20 \clpadl100 \clpadb20 \clpadr100 \gaph\cellx4320
+\clvertalt \clshdrawnil \clbrdrt\brdrs\brdrw20\brdrcf2 \clbrdrl\brdrs\brdrw20\brdrcf2 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt20 \clpadl100 \clpadb20 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab560\pardirnatural\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab560\pardirnatural\partightenfactor0
+
+\f0\fs26 \cf0 \cell \lastrow\row
+\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+\cf0 \
+\
+\
+\
+\
+\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+
+\f2\b\fs40 \cf0 07/03/2026(constructors):-\
+\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+
+\f0\b0\fs26 \cf0 \
+\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+
+\f2\b\fs40 \cf0 \
+//Bank account System\
+\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+
+\f0\b0\fs26 \cf0 #include <iostream>\
+using namespace std;\
+\
+//creating class\
+class BankHolders \{\
+   \
+    string name;\
+    string accNo;\
+    string add;\
+    string ifcsCode;\
+    \
+    \
+    //creating constructor\
+    public:\
+    BankHolders(string n, string a, string ad, string i) \{\
+    name = n;\
+    accNo = a;\
+    add = ad;\
+    ifcsCode = i;\
+        \
+    \}\
+    \
+    void display() \{\
+        cout << "name: " << name;\
+        cout << "accno: " << accNo;\
+        cout << "add: " << add;\
+        cout << "ifcsCode: " << ifcsCode;\
+    \}\
+\};\
+\
+//main function\
+int main() \{\
+    //object creation\
+    BankHolders b1("shiva", "1354646762656", "palamakula", "hkuyhj455772472");\
+    b1.display();\
+\}\
+\
+\
+\
+\
+\pard\pardeftab560\partightenfactor0
+
+\f2\b\fs40 \cf0 //student information System \
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f0\b0\fs26 \cf0 #include <iostream>\
+using namespace std;\
+\
+class StudentInfo \{\
+    string name;\
+    int age;\
+    int roll;\
+\
+    // constructor\
+    public:\
+    StudentInfo(string n, int a, int r) \{\
+        name = n;\
+        age = a;\
+        roll = r;\
+    \}\
+\
+    void display() \{\
+        cout << "Name: " << name << endl;\
+        cout << "roll: " << roll << endl;\
+        cout << "age: " << age << endl;\
+    \}\
+\};\
+\
+int main() \{\
+    //objecct creation\
+    StudentInfo s1("shiva kumar", 22, 7236 );\
+    s1.display();\
+    \
+    StudentInfo s2("nihar", 22, 7236 );\
+    s2.display();\
+    \
+    StudentInfo s3("pradeep", 22, 7236 );\
+    s3.display();\
+    \
+    StudentInfo s4("tharun", 22, 7236 );\
+    s4.display();\
+    \
+    StudentInfo s5("mani", 22, 7236 );\
+    s5.display();\
+\}\
+\
+\
+\
+\pard\pardeftab560\partightenfactor0
+
+\f2\b\fs40 \cf0 //Product store system\
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f0\b0\fs26 \cf0 #include <iostream>\
+using namespace std;\
+\
+class Product \{\
+    string name;\
+    int price;\
+    \
+    public:\
+    Product(string n, int p)\{\
+        name=n;\
+        price=p;\
+    \}\
+    \
+    void display() \{\
+        cout << "name: " << name << endl;\
+        cout <<"price: " << price << endl;\
+    \}\
+\};\
+\
+int main() \{\
+    Product p1("vivo", 200000);\
+    p1.display();\
+    Product p2("vivo", 200000);\
+    p2.display();\
+    Product p3("vivo", 200000);\
+    p3.display();\
+    Product p4("vivo", 200000);\
+    p4.display();\
+    Product p5("vivo", 200000);\
+    p5.display();\
+\}\
+\
+\
+\pard\pardeftab560\partightenfactor0
+
+\f2\b\fs40 \cf0 //Employee Salary System\
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f0\b0\fs26 \cf0 #include <iostream>\
+using namespace std;\
+\
+class Employee \{\
+    string name;\
+    int empId;\
+    float salary;\
+    \
+    \
+    //creating constructor\
+    public:\
+    Employee(string n, int i, float s) \{\
+        name = n;\
+        empId = i;\
+        salary = s;\
+    \}\
+    \
+    void display() \{\
+        cout << "Name: " << name << endl;\
+        cout << "empid: " << empId << endl;\
+        cout << "salary: " << salary << endl;\
+    \}\
+\};\
+\
+int main() \{\
+    //object creation\
+    Employee e1("shiva", 1212, 4000.221);\
+    e1.display();\
+    \
+\}\
+\
+\
+\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+\cf0 \
+\pard\pardeftab560\pardirnatural\partightenfactor0
+
+\f2\b\fs40 \cf0 // car showroom brand\
+\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+
+\f0\b0\fs26 \cf0 \
+#include <iostream>\
+using namespace std;\
+\
+class Car \{\
+    string brand;\
+    float price;\
+    \
+    //creating constructor\
+    public:\
+    Car(string b, float p) \{\
+        brand = b;\
+        price = p;\
+    \}\
+    \
+    void display() \{\
+        cout << "brand: " << brand << endl;\
+        cout << "price: " << price << endl;\
+    \}\
+\};\
+\
+int main() \{\
+    //object creation\
+    Car c1("shiva", 290090);\
+    c1.display();\
+    \
+    Car c2("kumar", 290090);\
+    c2.display();\
+    \
+    Car c3("chinna", 290090);\
+    c3.display();\
+\}\
+\
+\
+\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+
+\f2\b\fs40 \cf0 // encapsulation\
+\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+
+\f0\b0\fs26 \cf0 \
+#include <iostream>\
+using namespace std;\
+\
+class Student \{\
+    private:\
+    int marks;\
+    \
+    public:\
+    void setMarks(int m) \{\
+        marks = m;\
+    \}\
+    \
+    int getMarks() \{\
+        return marks;\
+    \}\
+\};\
+\
+int main() \{\
+    Student s1;\
+    \
+    s1.setMarks(85);\
+    \
+    cout << "student marks: " << s1.getMarks();\
+\}\
+\
+\
+\
+\
+//bank account\
+#include <iostream>\
+using namespace std;\
+\
+class BankAccount \{\
+   private:\
+   string name;\
+   int accNo;\
+   float balance;\
+   \
+   \
+   public:\
+   void setName(string n) \{\
+       name = n;\
+   \}\
+   \
+   void setAccNo(int a) \{\
+       accNo = a;\
+   \}\
+   \
+   void setBalance(float b)\{\
+       balance = b;\
+   \}\
+   \
+   string getName() \{\
+       return name;\
+   \}\
+   \
+   int getAccNo() \{\
+       return accNo;\
+   \}\
+   \
+   float getBalance() \{\
+       return balance;\
+   \}\
+\};\
+\
+\
+int main() \{\
+    //object creation\
+    BankAccount b1;\
+    b1.setName("shiva");\
+    b1.setAccNo(101);\
+    b1.setBalance(5000);\
+      \
+    cout << b1.getName() << endl;\
+    cout << b1.getAccNo() << endl;\
+    cout << b1.getBalance() << endl;\
+    \
+    \
+    \
+\}\
+\
+\
+\
+#include <iostream>\
+using namespace std;\
+\
+class Employee \{\
+\
+private:\
+    string name;\
+    int salary;\
+\
+public:\
+\
+    void setName(string n) \{\
+        name = n;\
+    \}\
+\
+    void setSalary(int s) \{\
+        salary = s;\
+    \}\
+\
+    string getName() \{\
+        return name;\
+    \}\
+\
+    int getSalary() \{\
+        return salary;\
+    \}\
+\
+\};\
+\
+int main() \{\
+\
+    Employee e;\
+\
+    e.setName("Anil");\
+    e.setSalary(40000);\
+\
+    cout << "Employee: " << e.getName() << endl;\
+    cout << "Salary: " << e.getSalary();\
+\
+\}\
+\
+\
+\
+\
+#include <iostream>\
+using namespace std;\
+\
+class Product \{\
+\
+private:\
+    string name;\
+    int price;\
+\
+public:\
+\
+    void setName(string n) \{\
+        name = n;\
+    \}\
+\
+    void setPrice(int p) \{\
+        price = p;\
+    \}\
+\
+    string getName() \{\
+        return name;\
+    \}\
+\
+    int getPrice() \{\
+        return price;\
+    \}\
+\
+\};\
+\
+int main() \{\
+\
+    Product p;\
+\
+    p.setName("Laptop");\
+    p.setPrice(50000);\
+\
+    cout << "Product: " << p.getName() << endl;\
+    cout << "Price: " << p.getPrice();\
+\
+\}\
+\
+\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+
+\f2\b\fs40 \cf0 // encapsulation\
+//employee and manager\
+\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+
+\f0\b0\fs26 \cf0 #include <iostream>\
+using namespace std;\
+class Employee \{\
+    public:\
+    string name;\
+    int salary;\
+    \
+    void getEmployee() \{\
+        cout << "enter the employee name: ";\
+        cin >> name;\
+        \
+        cout << "enter salary: ";\
+        cin >> salary;\
+    \}\
+\};\
+\
+class Manager : public Employee \{\
+    public: int bonus;\
+    \
+    void getManager() \{\
+        cout << "enter bonous: ";\
+        cin >> bonus;\
+    \}\
+    \
+    void display() \{\
+        cout << name;\
+        cout << salary;\
+        cout << bonus;\
+        cout << salary + bonus;\
+    \}\
+\};\
+\
+int main() \{\
+    Manager m;\
+    m.getEmployee();\
+    m.getManager();\
+    m.display();\
+\}\
+\
+\
+\
+\
+#include <iostream>\
+using namespace std;\
+\
+class Person \{\
+public:\
+    string name;\
+\
+    void getPerson() \{\
+        cout<<"Enter Name: ";\
+        cin>>name;\
+    \}\
+\};\
+\
+class Student : public Person \{\
+public:\
+    int marks;\
+\
+    void getStudent() \{\
+        cout<<"Enter Marks: ";\
+        cin>>marks;\
+    \}\
+\
+    void display() \{\
+        cout<<"Name: "<<name<<endl;\
+        cout<<"Marks: "<<marks<<endl;\
+    \}\
+\};\
+\
+class Teacher : public Person \{\
+public:\
+    string subject;\
+\
+    void getTeacher() \{\
+        cout<<"Enter Subject: ";\
+        cin>>subject;\
+    \}\
+\
+    void display() \{\
+        cout<<"Name: "<<name<<endl;\
+        cout<<"Subject: "<<subject<<endl;\
+    \}\
+\};\
+\
+int main() \{\
+    Student s;\
+    s.getPerson();\
+    s.getStudent();\
+    s.display();\
+\}\
+\
+\
+\
+08/03/2026\
+\
+class Student \{\
+    String name;\
+    int age;\
+    \
+    public void display() \{\
+        System.out.println("name: "+name);\
+        System.out.println("roll no: "+age);\
+    \}\
+\}\
+public class Main\
+\{\
+	public static void main(String[] args) \{\
+		Student s1 = new Student();\
+		s1.name="shiva";\
+		s1.age=22;\
+		\
+		s1.display();\
+	\}\
+\}\
+\
+\
+\
+\
+\
+class BankAccount \{\
+    private double balance;\
+    \
+    public void setBalance(double balance)\{\
+        this.balance = balance;\
+    \}\
+    \
+    public double getBalance() \{\
+        return balance;\
+    \}\
+\}\
+\
+class Main \{\
+    public static void main(String args[]) \{\
+        //object creation\
+        BankAccount b = new BankAccount();\
+        b.setBalance(500);\
+        System.out.println(b.getBalance());\
+    \}\
+    \
+\}\
+\
+\
+class Employee \{\
+    String name;\
+    int salary;\
+    \
+    void display() \{\
+        System.out.println("name: "+name+". "+"salary: "+salary);\
+    \}\
+\}\
+\
+class Manager extends Employee \{\
+    String department;\
+    \
+    void show() \{\
+        System.out.println("department: "+department);\
+    \}\
+\}\
+\
+class Main \{\
+    public static void main(String args[]) \{\
+        //object creation \
+        Manager m = new Manager();\
+        m.name = "shiva";\
+        m.salary = 20000;\
+        m.department="shiva kumar";\
+        m.display();\
+        m.show();\
+    \}\
+\}\
+\
+\
+\
+\
+class MathOperation \{\
+    int add(int a, int b)\{\
+        return a+b;\
+    \}\
+    \
+    int add(int a, int b, int c)\{\
+        return a+b+c;\
+    \}\
+\}\
+\
+\
+class Main \{\
+    public static void main(String args[]) \{\
+        MathOperation m = new MathOperation();\
+        \
+        // System.out.println(m.add(5, 10));\
+        System.out.println(m.add(5, 10 ,15));\
+    \}\
+\}\
+\
+\
+\
+class Animal \{\
+    void sound() \{\
+        System.out.println("animal barks");\
+    \}\
+\}\
+\
+class dog extends Animal \{\
+    void sound() \{\
+        System.out.println("dog bow bow");\
+    \}\
+\}\
+\
+class Main \{\
+    public static void main(String args[]) \{\
+        //object creation\
+        dog d = new dog();\
+        Animal a = new Animal();\
+        \
+        a.sound();\
+        \
+        d.sound();\
+    \}\
+\}\
+\
+\
+\
+class Car \{\
+    String name;\
+    \
+    Car(String name) \{\
+        this.name = name;\
+    \}\
+    \
+    void display() \{\
+        System.out.print(name);\
+    \}\
+\}\
+\
+class Main \{\
+    public static void main(String args[]) \{\
+        Car c = new Car("shiva kumar kummari");\
+        \
+        c.display(); //shiva kumar\
+    \}\
+\}\
+\
+\
+\
+//constructor over loading\
+\
+class Person \{\
+    String name;\
+    int age;\
+    \
+    \
+    //constructor-1\
+    Person() \{\
+        name = "shiva kumar";\
+    \}\
+    \
+    Person(String name, int age) \{\
+        this.name = name;\
+        this.age = age;\
+    \}\
+    \
+    void display() \{\
+        System.out.println(name +" "+ age);\
+    \}\
+\}\
+\
+class Main\{\
+    public static void main(String args[]) \{\
+        //object creation\
+        Person p = new Person();\
+        Person p1 = new Person("shiva kumar", 22);\
+        \
+        p1.display();\
+        p.display();\
+    \}\
+\}\
+\
+\
+\
+//abstract class example\
+abstract class Shape \{\
+    abstract void draw();\
+\}\
+\
+class Circle extends Shape \{\
+    void draw() \{\
+        System.out.println("Drawing Circle");\
+    \}\
+\}\
+\
+public class Main \{\
+    public static void main(String[] args) \{\
+        Circle c = new Circle();\
+        c.draw();\
+    \}\
+\}\
+\
+\
+\
+\
+interface Animal \{\
+    public void animalSound();\
+    public void sleep();\
+\}\
+\
+class pig implements Animal \{\
+    public void animalSound() \{\
+        System.out.println("the big says: wee wee");\
+    \}\
+    \
+    public void sleep() \{\
+        System.out.println("zzz");\
+    \}\
+\}\
+\
+class Main \{\
+    public static void main(String args[]) \{\
+        pig mypig = new pig();\
+        mypig.animalSound();\
+        mypig.sleep();\
+    \}\
+\}\
+\
+\
+\
+interface FirstInterface \{\
+    public void myMethod();\
+\}\
+\
+interface SecondInterface \{\
+    public void myOtherMethod();\
+\}\
+\
+class DemoClass implements FirstInterface, SecondInterface \{\
+    public void myMethod() \{\
+        System.out.println("hello");\
+    \}\
+    \
+    public void myOtherMethod() \{\
+        System.out.println("world!");\
+    \}\
+\}\
+\
+class Main \{\
+    public static void main(String args[]) \{\
+        DemoClass d = new DemoClass();\
+        d.myMethod();\
+        d.myOtherMethod();\
+    \}\
+\}\
+\
+\
+\
+//Bank Account System(Encapsulation)\
+\
+class BankAccount \{\
+    private String accountHolder;\
+    private double balance;\
+    \
+    //constructor\
+    BankAccount(String accountHolder, double balance) \{\
+        this.accountHolder = accountHolder;\
+        this.balance = balance;\
+    \}\
+    \
+    void deposite(double amount) \{\
+        balance += amount;\
+        System.out.println("deposited: " + amount);\
+    \}\
+    \
+    //withdraw\
+    void withdraw(double amount) \{\
+        if(balance >= amount) \{\
+            balance -= amount;\
+            System.out.println("withdraw: " + amount);\
+        \}else\{\
+            System.out.println("insufficient balance");\
+        \}\
+    \}\
+    \
+    void display() \{\
+        System.out.println("Account Holder: " + accountHolder);\
+        System.out.println("Balance: " + balance);\
+    \}\
+\}\
+\
+class Main \{\
+    public static void main(String[] args) \{\
+        BankAccount b = new BankAccount("shiva", 5000);\
+        b.display();\
+        \
+    \}\
+\}\
+\
+\
+\
+//vehicle management System\
+class Vechile \{\
+    void start() \{\
+        System.out.println("vechile starting.....");\
+    \}\
+\}\
+\
+class Car extends Vechile \{\
+    void drive() \{\
+        System.out.println("car id driving");\
+    \}\
+\}\
+\
+class Bike extends Vechile \{\
+    void ride() \{\
+        System.out.println("Bike is riding");\
+    \}\
+\}\
+\
+class Main \{\
+    public static void main(String args[]) \{\
+        Bike b = new Bike();\
+        b.ride();\
+        \
+        Car c = new Car();\
+        c.start();\
+        c.drive();\
+    \}\
+\}\
+\
+\
+\
+\
+//mobile production\
+class Mobile \{\
+    String brand;\
+    int ram;\
+    \
+    //default constructor\
+    Mobile() \{\
+        this("samsang", 8);\
+        System.out.println("Default Constructor");\
+    \}\
+    \
+    Mobile(String brand, int ram) \{\
+        this.brand = brand;\
+        this.ram = ram;\
+        System.out.println("paramatrized constructor");\
+    \}\
+\}\
+\
+class Main \{\
+    public static void main(String args[]) \{\
+        //object creation\
+        Mobile m = new Mobile();\
+        \
+    \}\
+\}\
+\
+\
+\
+\
+\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+
+\f2\b\fs40 \cf0 11/03/2026\
+\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+
+\f0\b0\fs26 \cf0 \
+#include <iostream>\
+using namespace std;\
+\
+class A \{\
+    public:\
+    void display()\{\
+        cout << "I am A here" << endl;\
+    \}\
+\};\
+\
+class B : public A \{\
+    public:\
+    void display2() \{\
+        cout << "I am B here" << endl;\
+    \}\
+\};\
+\
+class C : public B \{\
+    public:\
+    void display3() \{\
+        cout << "I am C here";\
+    \}\
+\};\
+\
+int main() \{\
+    C c;\
+    c.display2();\
+    c.display();\
+\}\
+\
+\
+\
+//poltmorpism\
+#include<iostream>\
+using namespace std;\
+\
+class A \{\
+    void upi \{\
+        System.out.println("paytem");\
+    \}\
+\};\
+\
+class B : public A \{\
+    public:\
+    void upi \{\
+        System.out.println("google pay");\
+    \}\
+\};\
+\
+class C : public B \{\
+    public:\
+    void upi \{\
+        System.out.println("super money")\
+    \}\
+\};\
+\
+int main() \{\
+    C c;\
+    c.upi();\
+\}\
+\
+\
+\
+\
+\
+// 1. Constructor + Method Overriding (Tracing)\
+class A \{\
+    A() \{\
+        System.out.println("I am constructor A");\
+    \}\
+    \
+    void display()\{\
+        System.out.println("I am method A");\
+    \}\
+\}\
+    \
+class B \{\
+    B() \{\
+        System.out.println("I am constructor B");\
+    \}\
+    \
+    void display() \{\
+        System.out.println("I am method B");\
+    \}\
+\}\
+\
+class C \{\
+    C() \{\
+        System.out.println("I am constructor C");\
+    \}\
+    \
+    void display() \{\
+        System.out.print("I am method C");\
+    \}\
+\}\
+\
+class Main \{\
+    public static void main(String args[]) \{\
+        A a = new A();\
+        a.display();\
+        \
+        B b = new B();\
+        b.display();\
+        \
+        C c = new C();\
+        c.display();\
+    \}\
+\}\
+\
+\
+\
+\
+class Payment \{\
+    void pay() \{\
+        System.out.println("Processing payment");\
+    \}\
+\}\
+\
+class CreditCard extends Payment \{\
+    void pay() \{\
+        System.out.println("paying using creditcard");\
+    \}\
+\}\
+\
+class debitCard extends CreditCard \{\
+    void pay() \{\
+        System.out.println("paid using den=bit card");\
+    \}\
+\}\
+\
+class upi extends debitCard \{\
+    void pay() \{\
+        System.out.println("using upi");\
+    \}\
+\}\
+\
+class Main \{\
+    public static void main(String args[]) \{\
+        upi p = new upi();\
+        p.pay();\
+    \}\
+\}\
+\
+\
+class A \{\
+    void show() \{\
+        System.out.println("A");\
+    \}\
+\}\
+\
+class B extends A \{\
+    void show() \{\
+        System.out.println("B");\
+    \}\
+\}\
+\
+class Main \{\
+    public static void main(String args[]) \{\
+        A a = new B();\
+        a.show();\
+    \}\
+\}\
+\
+\
+\
+\
+class A \{\
+    void show() \{\
+        System.out.println("A show");\
+    \}\
+\}\
+\
+class B extends A \{\
+    \
+\}\
+\
+class Main \{\
+    public static void main(String[] args) \{\
+        A a = new A();\
+        a.show();\
+    \}\
+\}\
+\
+\
+\
+\
+class A \{\
+    A() \{\
+        System.out.println("shiva");\
+    \}\
+\}\
+\
+class B extends A \{\
+    B() \{\
+        System.out.println("kumar");\
+    \}\
+\}\
+\
+class Main \{\
+    public static void main(String args[]) \{\
+        B b = new B();\
+    \}\
+\}\
+\
+\
+#include <iostream>\
+using namespace std;\
+\
+class A \{\
+    public:\
+    virtual void display() \{\
+        cout << "I am A here";\
+    \}\
+\};\
+\
+class B : public A \{\
+    public:\
+    void display() \{\
+        cout << "I am B here";\
+    \}\
+\};\
+\
+class C : public A \{\
+    public:\
+    // void display() \{\
+    //     cout << "I am C here";\
+    // \}\
+\};\
+\
+class D : public B,C \{\
+    public:\
+    // void display() \{\
+    //     cout << "I am D here";\
+    // \}\
+\};\
+\
+int main() \{\
+    // D d1;\
+    // d1.display();\
+    B b;\
+    A* a;\
+    a = &b;\
+    a->display();\
+\}\
+\
+\
+\
+/******************************************************************************\
+\
+                              Online C++ Compiler.\
+               Code, Compile, Run and Debug C++ program online.\
+Write your code in this editor and press "Run" button to compile and execute it.\
+\
+*******************************************************************************/\
+\
+#include <iostream>\
+using namespace std;\
+\
+class Shape \{\
+    public:\
+    virtual void area() = 0;\
+\};\
+\
+class Circle : public Shape \{\
+    public:\
+    void area() \{\
+        cout << "Area of circle" << endl;\
+    \}\
+\};\
+\
+class Square : public Shape \{\
+    public:\
+    void area() \{\
+        cout << "Area of square" << endl;\
+    \}\
+\};\
+\
+int main() \{\
+    Shape* s;\
+    \
+    Circle c;\
+    Square sq;\
+    \
+    s = &c;\
+    s->area();\
+    \
+    s = &sq;\
+    s->area();\
+\}\
+\
+\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls3\ilvl0\cf0 {\listtext	0.	}Check Even or Odd\
+\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+\cf0 \
+public class Main \{\
+    public static void main(String[] args) \{\
+        int n = 7;\
+\
+        if(n % 2 == 0)\
+            System.out.println("Even");\
+        else\
+            System.out.println("Odd");\
+    \}\
+\}\
+\
+\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 2. Find Largest of Two Numbers\
+\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+\cf0 \
+public class Main \{\
+    public static void main(String[] args) \{\
+        int a = 10, b = 20;\
+\
+        if(a > b)\
+            System.out.println(a);\
+        else\
+            System.out.println(b);\
+    \}\
+\}\
+\
+\
+3.Check Prime Number\
+\
+\
+public class Main \{\
+    public static void main(String[] args) \{\
+        int n = 7;\
+        int count = 0;\
+\
+        for(int i = 1; i <= n; i++) \{\
+            if(n % i == 0)\
+                count++;\
+        \}\
+\
+        if(count == 2)\
+            System.out.println("Prime");\
+        else\
+            System.out.println("Not Prime");\
+    \}\
+\}\
+\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 \
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls4\ilvl0\cf0 {\listtext	0.	}Reverse a Number\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 \
+\
+public class Main \{\
+    public static void main(String[] args) \{\
+        int n = 123;\
+        int rev = 0;\
+\
+        while(n > 0) \{\
+            int digit = n % 10;\
+            rev = rev * 10 + digit;\
+            n = n / 10;\
+        \}\
+\
+        System.out.println("Reverse: " + rev);\
+    \}\
+\}\
+\
+\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls5\ilvl0\cf0 {\listtext	0.	}Count Digits in a Number\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 \
+public class Main \{\
+    public static void main(String[] args) \{\
+        int n = 12345;\
+        int count = 0;\
+\
+        while(n > 0) \{\
+            count++;\
+            n = n / 10;\
+        \}\
+\
+        System.out.println("Digits: " + count);\
+    \}\
+\}\
+\
+\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls6\ilvl0\cf0 {\listtext	0.	} Sum of Digits\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 \
+public class Main \{\
+    public static void main(String[] args) \{\
+        int n = 123;\
+        int sum = 0;\
+\
+        while(n > 0) \{\
+            sum += n % 10;\
+            n = n / 10;\
+        \}\
+\
+        System.out.println(sum);\
+    \}\
+\}\
+\
+\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls7\ilvl0\cf0 {\listtext	0.	} Fibonacci Series\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 \
+public class Main \{\
+    public static void main(String[] args) \{\
+        int n = 5;\
+        int a = 0, b = 1;\
+\
+        for(int i = 1; i <= n; i++) \{\
+            System.out.print(a + " ");\
+            int next = a + b;\
+            a = b;\
+            b = next;\
+        \}\
+    \}\
+\}\
+\
+\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls8\ilvl0\cf0 {\listtext	0.	}Find Factorial\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 \
+public class Main \{\
+    public static void main(String[] args) \{\
+        int n = 5;\
+        int fact = 1;\
+\
+        for(int i = 1; i <= n; i++) \{\
+            fact = fact * i;\
+        \}\
+\
+        System.out.println("Factorial: " + fact);\
+    \}\
+\}\
+\
+\
+9. Find Largest in Array\
+\
+public class Main \{\
+    public static void main(String[] args) \{\
+        int[] arr = \{2, 8, 5, 1, 9\};\
+\
+        int max = arr[0];\
+\
+        for(int i = 0; i < arr.length; i++) \{\
+            if(arr[i] > max)\
+                max = arr[i];\
+        \}\
+\
+        System.out.println("Largest: " + max);\
+    \}\
+\}\
+\
+10. Count Even & Odd in Array\
+\
+public class Main \{\
+    public static void main(String[] args) \{\
+        int[] arr = \{1,2,3,4,5\};\
+        int even = 0, odd = 0;\
+\
+        for(int i = 0; i < arr.length; i++) \{\
+            if(arr[i] % 2 == 0)\
+                even++;\
+            else\
+                odd++;\
+        \}\
+\
+        System.out.println("Even: " + even);\
+        System.out.println("Odd: " + odd);\
+    \}\
+\}\
+\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+\cf0 \
+\
+\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+\cf0 //object creation\
+class Electronic \{\
+    String modelName;\
+    String name;\
+    int modelNum;\
+    int serialNum;\
+    String ram;\
+    \
+    \
+    //function creation\
+    public void Display()\{\
+        this.modelName = modelName;\
+        this.name = name;\
+        this.modelNum = modelNum;\
+        this.serialNum = serialNum;\
+        this.ram = ram;\
+        \
+    \}\
+    \
+    //creation of constructor\
+    public Electronic(String modelName, String name, int modelNum, int serialNum, String ram )\{\
+        System.out.println(modelName);\
+        System.out.println(name);\
+        System.out.println(modelNum);\
+        System.out.println(serialNum);\
+        System.out.println(ram);\
+        \
+    \} \
+\}\
+\
+class Main\{\
+    public static void main(String[] args) \{\
+        \
+        Electronic item1 = new Electronic("foldable", "samsang", 200121, 1234, "16gb");\
+        item1.Display();\
+        \
+         Electronic item2 = new Electronic("screen touch", "iphone", 2321, 1232, "8gb");\
+        item2.Display();\
+        \
+         Electronic item3 = new Electronic("screen touch", "motorila", 2321, 1232, "4gb");\
+        item3.Display();\
+        \
+         Electronic item4 = new Electronic("fold able", "samsang", 1231, 2231, "16gb");\
+        item4.Display();\
+        \
+         Electronic item5 = new Electronic("normal", "nokia", 23213, 2321, "0gb");\
+        item5.Display();\
+    \}\
+    \
+    switch()\
+\}\
+\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+\cf0 \
+\
+\
+}
