@@ -1,4 +1,4 @@
-# Charan Branch
+# Charan Vamshi's Branch
 
 This branch contains my Java Full Stack assignments and daily practice programs.
 
@@ -15,6 +15,6 @@ This branch contains my Java Full Stack assignments and daily practice programs.
 * Practice Programs
 * Assignment Files
 
-## Notes
+## Note
 
-This branch is updated regularly with new assignments and practice files.
+This branch is updated regularly with new assignments, practice files and Covered topics.
