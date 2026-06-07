@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+
+<title>Product Registration</title>
+
+<style>
+
+body{
+margin:0;
+padding:0;
+font-family:Arial;
+background:#f2f2f2;
+}
+
+.container{
+width:500px;
+margin:40px auto;
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0px 0px 15px gray;
+}
+
+h1{
+text-align:center;
+color:#333;
+margin-bottom:30px;
+}
+
+label{
+font-weight:bold;
+display:block;
+margin-top:15px;
+margin-bottom:5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+textarea{
+width:100%;
+padding:10px;
+border:1px solid #ccc;
+border-radius:8px;
+font-size:15px;
+box-sizing:border-box;
+}
+
+textarea{
+height:80px;
+resize:none;
+}
+
+input[type="submit"]{
+width:100%;
+padding:12px;
+margin-top:25px;
+background:#4CAF50;
+color:white;
+border:none;
+border-radius:8px;
+font-size:16px;
+cursor:pointer;
+}
+
+input[type="submit"]:hover{
+background:#45a049;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Product Registration Form</h1>
+
+<form action="ProductServlet" method="post">
+
+<label>Product ID</label>
+<input type="number" name="id">
+
+<label>Product Name</label>
+<input type="text" name="productName">
+
+<label>Description</label>
+<textarea name="description"></textarea>
+
+<label>Brand</label>
+<input type="text" name="brand">
+
+<label>Category</label>
+<input type="text" name="category">
+
+<label>Price</label>
+<input type="number" step="0.01" name="price">
+
+<label>Quantity</label>
+<input type="number" name="quantity">
+
+<label>Manufacture Date</label>
+<input type="date" name="manufactureDate">
+
+<label>Expiry Date</label>
+<input type="date" name="expiryDate">
+
+<input type="submit" value="Register Product">
+
+</form>
+
+</div>
+
+</body>
+</html>
