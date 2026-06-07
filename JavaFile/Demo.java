@@ -1,9 +1,0 @@
-public class Demo {
-    public static void main(String[] args) {
-      String s1="Raghav";
-      int len = s1.length();
-      for(int i=len;i>0;i--){
-          System.out.println(s1.charAt(i));
-      }
-    }
-}
